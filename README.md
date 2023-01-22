@@ -22,6 +22,7 @@ Auth0は、認証、認可、ユーザ管理、多要素認証、アクセス管
 1. Auth0のアカウント作成
 2. テナントの作成
 3. アプリケーションの作成
+4. アプリケーションの設定
 
 ### 1. Auth0のアカウント作成
 
@@ -40,3 +41,28 @@ Auth0は、認証、認可、ユーザ管理、多要素認証、アクセス管
 テナントを作成するには、ダッシュボードの左上に表示されている現在のテナントをクリックし、「Create Tenant」をクリックします。  
 
 ![テナントの作成](.development/img/crate-tenant.png)  
+
+### 3.アプリケーションの作成
+
+次に、アプリケーションを作成します。  
+
+アプリケーションとは、認証を行うアプリケーションのことです。  
+左上のログをクリックして、トップページへ進み、「Create Application」をクリックします。  
+
+![アプリケーションの作成](.development/img/create-app.png)  
+
+### 4.アプリケーションの設定
+
+アプリケーションの設定画面へ進み、以下の内容を保存します。  
+
+- Domain
+- Client ID
+- Client Secret
+
+これらを`.env.local.example`にバリューにセットします。  
+同時に、`.env.local.example`を`.env.local`にリネームします。  
+
+### 5. URIの設定
+
+アプリケーションの設定画面の「Allowed Callback URLs」に、`http://localhost:3000/api/auth/callback/auth0`を追加します。  
+また、「Allowed Logout URLs」に、`http://localhost:3000/`を追加します。  
