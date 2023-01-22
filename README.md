@@ -69,3 +69,9 @@ Auth0は、認証、認可、ユーザ管理、多要素認証、アクセス管
 
 アプリケーションの設定画面の「Allowed Callback URLs」に、`http://localhost:3000/api/auth/callback/auth0`を追加します。  
 また、「Allowed Logout URLs」に、`http://localhost:3000/`を追加します。  
+
+## 参考文献
+
+- [Auth0](https://auth0.com/)
+- [使用したテンプレート](https://github.com/auth0-samples/auth0-nextjs-samples)
+- [テンプレート一覧](https://github.com/orgs/auth0-samples/repositories)
