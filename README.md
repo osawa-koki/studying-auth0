@@ -5,6 +5,14 @@
 
 ![成果物](.development/img/fruit.gif)  
 
+## 実行方法
+
+下に書いてあるイロイロな設定をした後に以下のコマンドを実行する。  
+
+```shell
+yarn && yarn dev
+```
+
 ## イロイロ説明
 
 ### Auth0とは
