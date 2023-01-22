@@ -75,3 +75,7 @@ Auth0は、認証、認可、ユーザ管理、多要素認証、アクセス管
 - [Auth0](https://auth0.com/)
 - [使用したテンプレート](https://github.com/auth0-samples/auth0-nextjs-samples)
 - [テンプレート一覧](https://github.com/orgs/auth0-samples/repositories)
+
+## 補足
+
+Next.jsのTypeScriptのサンプルは無かった、、、  
