@@ -78,4 +78,4 @@ Auth0は、認証、認可、ユーザ管理、多要素認証、アクセス管
 
 ## 補足
 
-Next.jsのTypeScriptのサンプルは無かった、、、  
+Next.jsのTypeScript版のサンプルは無かった、、、  
